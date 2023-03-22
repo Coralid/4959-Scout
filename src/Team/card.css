@@ -1,0 +1,53 @@
+.team-card {
+    display: inline-block;
+    border-radius: var(--4959-theme-radius);
+    padding: var(--4959-theme-sizing) calc(var(--4959-theme-sizing) * 2);
+    height: 100%;
+    vertical-align: top;
+    white-space: pre-wrap;
+    transition: background-color 100ms;
+}
+
+.team-card:hover {
+    background: var(--4959-theme-foreground);
+}
+
+.team-card > svg {
+    width: 1em;
+    height: 1em;
+}
+
+.team-title {
+    font-weight: bold;
+}
+
+.team-number {
+    color: var(--4959-theme-font-secondary);
+}
+
+.team-rating-icon {
+    width: 1em;
+    margin: 0.1em 0.5em 0.1em 0.1em;
+    fill: #ffc107;
+    display: inline;
+    vertical-align: top;
+}
+
+.team-rating {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.team-card-content {
+    margin: 5px 0;
+    font-size: 0.75em;
+}
+
+.team-card-content > * {
+    margin: 5px 0;
+}
+
+.team-note {
+    color: var(--4959-theme-font-secondary);
+    font-style: italic;
+}

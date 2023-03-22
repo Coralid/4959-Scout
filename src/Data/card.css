@@ -1,0 +1,39 @@
+.data-card {
+    --data-theme: var(--4959-theme-primary);
+    user-select: none;
+    display: flex;
+    color: var(--data-theme);
+    fill: var(--data-theme);
+    overflow: hidden;
+    margin: 5px;
+    font-size: 0.75em;
+}
+
+.data-card > svg {
+    height: calc(1rem + var(--4959-theme-sizing) / 2);
+    padding: 0;
+    margin: auto 5px;
+}
+
+.number-value {
+    font-weight: bold;
+    border: var(--4959-theme-border) solid var(--data-theme);
+    color: var(--data-theme);
+    text-align: center;
+}
+
+.number-value > * {
+    vertical-align: top;
+}
+
+.boolean-value[data-value=true] {
+    color: var(--data-theme);
+    font-weight: bold;
+    border-color: var(--data-theme);
+}
+
+.incrementor {
+    width: 100%;
+    color: var(--data-theme);
+    display: block;
+}

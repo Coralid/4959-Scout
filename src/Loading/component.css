@@ -1,0 +1,49 @@
+.loading-component {
+    width: 100%;
+    padding: 10px;
+}
+
+.loading {
+    width: 30px;
+    height: 30px;
+    margin: 10px auto;
+    stroke-width: 10;
+    stroke-miterlimit: 10;
+    fill: none;
+    display: block;
+    transform: rotate(-90deg);
+}
+
+.loading-inline {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    vertical-align: middle;
+    stroke-width: 10;
+    stroke-miterlimit: 10;
+    fill: none;
+    display: inline;
+    transform: rotate(-90deg);
+}
+
+.loading-c0 {
+    stroke: var(--4959-theme-primary);
+    stroke-dasharray: 0 125.66;
+    stroke-dashoffset: 0;
+    animation: loading-animation 2s linear infinite;
+}
+
+.loading-c1 {
+    stroke: var(--4959-theme-secondary);
+}
+
+@keyframes loading-animation {
+    0% {
+        stroke-dashoffset: 125.66;
+        stroke-dasharray: 0 125.66;
+    }
+    100% {
+        stroke-dashoffset: 125.66;
+        stroke-dasharray: 125 125.66;
+    }
+}

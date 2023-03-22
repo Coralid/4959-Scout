@@ -1,0 +1,10 @@
+.notFound{
+    /*font-size: 50px;*/
+    background: #006633;
+    border-color: #007744;
+    border-radius: 1rem;
+    border-width: thick;
+    border-style: solid;
+    text-align: center;
+    aspect-ratio: 8 / 1;
+}
