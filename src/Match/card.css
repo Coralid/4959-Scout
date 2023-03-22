@@ -1,0 +1,22 @@
+.title-bar {
+    display: flex;
+}
+
+.match-link {
+    flex: 1;
+}
+
+.data-table {
+    width: 100%;
+    column-width: 300px;
+}
+
+.data-item {
+    width: 100%;
+    display: inline-flex;
+    padding: 5px;
+}
+
+.data-item > .team-card {
+    flex-grow: 1;
+}

@@ -1,0 +1,25 @@
+.nav {
+    display: inline-block;
+    background: var(--4959-theme-glass);
+    backdrop-filter: blur(15px);
+    font-weight: bold;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.nav-routes {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav > * {
+    vertical-align: middle;
+}
+
+.nav > .app-title {
+    padding: 14px;
+    display: inline-block;
+}

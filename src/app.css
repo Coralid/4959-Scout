@@ -1,0 +1,29 @@
+.content {
+  display: block;
+  margin: 75px 10px 15px 10px;
+}
+
+.flexible-card-main {
+  vertical-align: top;
+  display: inline-block;
+  width: 65%;
+}
+
+.flexible-card-side {
+  vertical-align: top;
+  display: inline-block;
+  width: 35%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .flexible-card-main {
+    display: block;
+    width: 100%;
+  }
+  .flexible-card-side {
+    display: block;
+    width: 100%;
+  }
+}
+
+.w3-container,.w3-panel{padding:0.01em 16px}.w3-panel{margin-top:16px;margin-bottom:16px}
